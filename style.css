@@ -1,0 +1,491 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#row{
+    overflow: auto;
+} Only for the upper navbar flow scroll */
+#block {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 40, 40);
+    width: 1930px;
+    height: 38px;
+    position: fixed;
+}
+
+.all {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.all:hover {
+    background-color: rgb(56, 53, 53);
+}
+
+.all:active {
+    background-color: rgb(15, 184, 15);
+}
+
+.one {
+    background-color: rgb(31, 165, 31);
+}
+
+.one:hover {
+    background-color: rgb(18, 184, 18);
+}
+
+#vertnav {
+    width: 20%;
+    background-color: rgb(229, 233, 243);
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#php {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.same {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.same a {
+    text-decoration: none;
+    color: black;
+}
+
+.same:hover {
+    background-color: rgb(100, 99, 99);
+}
+
+.same:active {
+    background-color: rgb(31, 165, 31);
+}
+
+.same:active a {
+    color: white;
+}
+
+.two {
+    background-color: rgb(48, 155, 48);
+}
+
+.two:hover {
+    background-color: rgb(48, 155, 48);
+}
+
+.two a {
+    color: white;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    float: right;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    float: right;
+}
+
+#han {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+#btn1 {
+    border: 1px solid white;
+    width: 95%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.btn2 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 95px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn3:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#hr1 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 70px;
+}
+
+#div1 h1 {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#div1 p {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+#div1 ul {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+#div2 {
+    height: 410px;
+    width: 850px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#div2 h3 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#div2 p {
+    padding-left: 30px;
+}
+
+.btn4 {
+    float: right;
+    margin-right: 50px;
+    margin-top: -75px;
+    background-color: rgb(51, 48, 48);
+    height: 38px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn4:hover {
+    background-color: black;
+}
+
+#div3 {
+    height: 200px;
+    width: 780px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-left: 3px solid green;
+}
+
+.btn5 {
+
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: green;
+    height: 38px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn5 a {
+    text-decoration: none;
+    color: white;
+}
+
+#hr2 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+#div4 h3 {
+    margin-left: 50px;
+
+}
+
+#div4 p {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+#div5 {
+    height: 280px;
+    width: 850px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#div5 h3 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#div5 p {
+    padding-left: 30px;
+}
+
+#div6 {
+    height: 80px;
+    width: 780px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-left: 3px solid green;
+}
+
+#div7 {
+    height: 280px;
+    width: 850px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 40px;
+    margin-top: -18px;
+    border-radius: 5px
+}
+
+#div7 h3 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#div7 p {
+    padding-left: 30px;
+}
+
+#div8 {
+    height: 80px;
+    width: 780px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-left: 3px solid green;
+}
+
+#div9 h3 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#div9 p {
+    margin-left: 40px;
+}
+
+#div10 {
+    height: 280px;
+    width: 850px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 5px
+}
+
+#div10 h3 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#div10 p {
+    padding-left: 30px;
+}
+
+#div11 {
+    height: 80px;
+    width: 780px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-left: 3px solid green;
+}
+
+#div12 {
+    height: 450px;
+    width: 850px;
+    background-color: rgb(26, 39, 58);
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+#div12 h1 {
+    padding-left: 350px;
+    color: rgb(231, 227, 227);
+    padding-top: 30px;
+}
+
+#div12 p {
+    padding-left: 280px;
+    color: rgb(231, 227, 227);
+}
+
+.same1 {
+    height: 30px;
+    width: 510px;
+    background-color: rgb(77, 98, 131);
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding-left: 44px;
+    padding-top: 15px;
+    color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+.same1:hover{
+    background-color:  rgb(33, 51, 80);
+}
+
+.same2 {
+    height: 30px;
+    width: 510px;
+    background-color: rgb(77, 98, 131);
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding-left: 44px;
+    padding-top: 15px;
+    color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+.same2:hover{
+    background-color:  rgb(33, 51, 80);
+}
+
+.same3 {
+    height: 30px;
+    width: 510px;
+    background-color: rgb(77, 98, 131);
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding-left: 44px;
+    padding-top: 15px;
+    color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+.same3:hover{
+    background-color:  rgb(33, 51, 80);
+}
+
+.same4 {
+    height: 30px;
+    width: 510px;
+    background-color: rgb(77, 98, 131);
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding-left: 44px;
+    padding-top: 15px;
+    color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+.same4:hover{
+    background-color:  rgb(33, 51, 80);
+}
+.aa{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -25px;
+    margin-top: -15px;
+    border-radius: 50px;
+}
+
+.btn6 {
+
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: green;
+    height: 38px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn6 a {
+    text-decoration: none;
+    color: white;
+}
